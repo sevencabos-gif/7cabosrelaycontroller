@@ -1,12 +1,11 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Dunamis Relay Controller</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>7 Cabos Relay Controler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
-      font-family: Futura, sans-serif;
+      font-family: Arial, sans-serif;
       text-align: center;
       background-color: #36B4D3;
       margin: 0;
@@ -142,11 +141,11 @@
       padding: 10px 0;
       margin-top: 40px;
     }
-  </style>
+</style>
 </head>
 <body>
 
-  <h1>Dunamis Relay Controller</h1>
+  <h1>7Cabos Relay Controller</h1>
 
   <!-- Login form -->
   <div id="loginForm">
@@ -222,21 +221,21 @@
 
   <script>
     // Firebase config
-     const firebaseConfig = {
-	 apiKey: "AIzaSyB5KiAgZ2zgbeavkEmM4XuuUu-hh-dBz7g",
-     authDomain: "dunamisrelaycontroll.firebaseapp.com",
-     databaseURL: "https://dunamisrelaycontroll-default-rtdb.firebaseio.com",
-     projectId: "dunamisrelaycontroll",
-     storageBucket: "dunamisrelaycontroll.firebasestorage.app",
-     messagingSenderId: "940724983336",
-     appId: "1:940724983336:web:49229185062fb66f95c71d",
+   const firebaseConfig = {
+    apiKey: "AIzaSyD57xEvmQu4GbbyvixbJhAAvHuigDTZmjI",
+    authDomain: "cabos-relay-controller.firebaseapp.com",
+    databaseURL: "https://cabos-relay-controller-default-rtdb.firebaseio.com",
+    projectId: "cabos-relay-controller",
+    storageBucket: "cabos-relay-controller.firebasestorage.app",
+    messagingSenderId: "420989209013",
+    appId: "1:420989209013:web:29c28bf822d7d0b4a5f1fc",
 };
 
     firebase.initializeApp(firebaseConfig);
 
     // Predefined login credentials (can be replaced with your logic)
-    const allowedEmail = "nolo.rivera@gmail.com";
-    const allowedPassword = "Dunamis";
+    const allowedEmail = "ey@7cabos.com";
+    const allowedPassword = "123456789";
 
     const loginForm = document.getElementById("loginForm");
     const dashboard = document.getElementById("dashboard");
